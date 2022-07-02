@@ -1,0 +1,215 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    border: 8px ridge violet;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header {
+    background-color: azure;
+    color: rgb(49, 105, 208);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 8px;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+  }
+  
+  .boxes {
+    border: 15px ridge  green;
+    margin: 5px;
+    position: relative;
+    height: 700px;
+  }
+  
+  .box-1 {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    color: rgb(41, 90, 182);
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    border: 6px ridge rgb(34, 162, 119);
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+  }
+  .box-2 {
+    width: 250px;
+    height: 200px;
+    padding: 10px 5px;
+    color:rgb(21, 94, 159);
+    background-color: white;
+    text-align: center;
+    border: 6px ridge rgb(20, 129, 92);
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+  
+  img {
+    width: 300px;
+    height: 150px;
+  }
+  .box-3 {
+    width: 250px;
+    height: 240px;
+    padding: 10px 5px;
+    color:slateblue;
+    background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 1px;
+    border: 6px ridge  rgb(16, 123, 87);
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+  }
+  .box-4 {
+    width: 250px;
+    height: 200px;
+    padding: 10px 5px;
+    color:rgb(16, 119, 119);
+    background-color: white;
+    text-align: center;
+    border: 6px ridge rgb(14, 94, 68);
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 40%;
+  }
+  input::placeholder {
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    color: rgb(105, 15, 15);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: orangered;
+    width: 35%;
+    padding: 0;
+    border-radius: 10px;
+  }
+  
+  .offer-card {
+    color: rgb(155, 79, 25);
+    border: 8px ridge rgb(80, 24, 136);
+    background-color: rgb(228, 241, 241);
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px 15px 8px 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 8px 8px black;
+    position: fixed;
+    left: 400px;
+    right: 400px;
+    bottom: 60px;
+  }
+  
+  .offer-card span {
+    display: inline-flex;
+  }
+  
+  .offer-message1 {
+    font-size: 22px;
+    padding-right: 5px;
+  }
+  
+  .offer-message2 {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  
+  .store {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .store-info {
+    border: 10px ridge rgb(118, 213, 24);
+    background-color:cornsilk;
+  }
+  
+  .store-info h2 {
+    text-align: center;
+    margin: 20px;
+  }
+  .store-items {
+    display: flex;
+    font-style: italic;
+  }
+  
+  .store-items div {
+    background-color: rgb(184, 119, 246);
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .store-items p {
+    padding: 10px;
+  }
+  
+  .others {
+    background-color: rgb(171, 101, 237);
+    text-align: center;
+    box-sizing: border-box;
+    font-style: italic;
+    margin: 5px;
+  }
+  
+  .others p {
+    padding: 10px 10px 30px 10px;
+  }
+  
+  .others h2 {
+    padding-top: 20px;
+  }
+  
